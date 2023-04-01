@@ -53,7 +53,7 @@ jobs:
           run: echo TEST JOB!
           
   test_docker_image_job:
-    needs: [setup]
+    #needs: [setup]
     runs-on: ubuntu-latest
     container:
       image: python
